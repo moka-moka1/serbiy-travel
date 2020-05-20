@@ -1,0 +1,16 @@
+#featureHeader{position:relative; width:466px}
+
+#navControls {position:absolute;bottom:15px;left:10px;z-index:1000; height:10px}
+#navControls a {color:#000000;float:left;line-height:normal;margin:0 2px;padding:0 5px;text-decoration:none;text-transform:uppercase; background:url("../img/nav/navControls.png"/*tpa=http://jpstaraplanina.rs/img/nav/navControls.png*/) no-repeat left center;text-indent:-2000px;}
+#navControls a.nextSlide{background:url("../img/nav/navNext.png"/*tpa=http://jpstaraplanina.rs/img/nav/navNext.png*/) no-repeat left center; float:right}
+#navControls a.nextSlide:hover{background:url("../img/nav/navNext.png"/*tpa=http://jpstaraplanina.rs/img/nav/navNext.png*/) no-repeat left center}
+#navControls a.prevSlide{background:url("../img/nav/navPrevius.png"/*tpa=http://jpstaraplanina.rs/img/nav/navPrevius.png*/) no-repeat left center}
+#navControls a.prevSlide:hover{background:url("../img/nav/navPrevius.png"/*tpa=http://jpstaraplanina.rs/img/nav/navPrevius.png*/) no-repeat left center}
+#navControls a:hover {background:url("../img/nav/navControlsOver.png"/*tpa=http://jpstaraplanina.rs/img/nav/navControlsOver.png*/) no-repeat left center}
+#navControls a.activeSlide { background:url("../img/nav/navControlsOver.png"/*tpa=http://jpstaraplanina.rs/img/nav/navControlsOver.png*/) no-repeat left center }
+#navControls a:focus {outline: none;}
+#navPager{display:block; float:right}
+
+a.slideShowLink{display:block; vertical-align:bottom}
+
+*:first-child+html #navControls { width:140px}

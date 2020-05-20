@@ -1,0 +1,29 @@
+//alert('1');
+
+document.write('<div id="weather2umbrella_weatherbox_parent"><div id="weather2umbrella_weatherbox"></div></div>');
+
+//alert('w2u');
+
+var widget = document.getElementById('weather2umbrella_weatherbox');
+//widget.style.width = wbox_width+"px";
+
+var l = window.location.href;
+var div = document.createElement('div');
+//alert("w2u");
+div.style.lineHeight = "1";
+div.innerHTML = '';
+
+div.innerHTML += '<IFRAME WIDTH="'+wbox_width+'" SCROLLING="NO" MARGINHEIGHT="0" MARGINWIDTH="0" HEIGHT="'+wbox_height+'" FRAMEBORDER="0" SRC="https://old.weather2umbrella.com/weatherbox.php?w2uwbid='+wbox_id+'&w2uwbl='+window.location.href+'"></IFRAME>';
+
+widget.appendChild(div);
+
+var w2u_link_div = document.createElement('div');
+//w2u_link_div.style.width = wbox_width+"px";
+w2u_link_div.style.width = wbox_width+"px";
+w2u_link_div.style.textAlign = "center";
+w2u_link_div.style.height = "15px";
+w2u_link_div.style.marginTop = "-20px";
+w2u_link_div.innerHTML = '';
+
+var widget2 = document.getElementById('weather2umbrella_weatherbox_parent');
+widget2.appendChild(w2u_link_div);

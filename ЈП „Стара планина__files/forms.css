@@ -1,0 +1,40 @@
+/* -------------------  GLOBAL FORM ELEMENTS -------------------- */
+
+label {color:#666666;display:block;font-size:12px;text-align:left;font-weight:bold}
+select, textarea{background-color:#FFFFFF;border: 1px solid #CCCCCC;line-height:140%;}
+select {padding:5px;}
+textarea{padding:10px;overflow-y:hidden;}
+
+/*----- input button ------*/
+
+button { border:0; cursor:pointer; padding:0 12px 0 0; text-align:center; outline:none;}
+button span { position:relative; display:block; white-space:nowrap; padding:0 0 0 15px; }
+button {background-image: url("../img/buttons/input_Button_Right.png"/*tpa=http://jpstaraplanina.rs/img/buttons/input_Button_Right.png*/);background-repeat: no-repeat;
+background-position: right;background-color: transparent;}
+button span { height:35px; line-height:35px;background: url("../img/buttons/input_Button_Left.png"/*tpa=http://jpstaraplanina.rs/img/buttons/input_Button_Left.png*/) left no-repeat;color:#003570; }
+button:hover {background: url("../img/buttons/input_Button_Right_Hover.png"/*tpa=http://jpstaraplanina.rs/img/buttons/input_Button_Right_Hover.png*/) right no-repeat; }
+button:hover span {background:url("../img/buttons/input_Button_Left_Hover.png"/*tpa=http://jpstaraplanina.rs/img/buttons/input_Button_Left_Hover.png*/) left no-repeat; }
+
+
+/* -------------------  Contact FORM -------------------- */
+
+.contactForm {}
+.contactForm .holder {}
+.contactForm label {margin:0 0 2px;}
+.contactForm input {border:1px solid #CCCCCC;margin:0 0 5px;padding:5px;width:364px;}
+.contactForm textarea {height:140px;margin:0 0 10px;width:355px;}
+.contactForm input.required {}
+.contactForm textarea.required {}
+#errorMessage1 { color:#990000; font-weight:bold}
+
+/* -------------------  Newslleter FORM -------------------- */
+
+.newsletterForm {width:350px;margin:0 auto}
+.newsletterForm input {border:1px solid #CCCCCC;margin:0 0 5px;padding:5px;width:300px;}
+.newsletterForm button{ margin-top:10px}
+#errorMessage2 { color:#990000; font-weight:bold}
+
+/* -------------------  Send Friend FORM -------------------- */
+
+.sendFriend {}
+.sendFriend input {border:1px solid #CCCCCC;margin:0 0 5px;padding:5px;width:325px;}

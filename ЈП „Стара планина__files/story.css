@@ -1,0 +1,81 @@
+/* -------------------  LIST STORY BROWSER -------------------- */
+
+.storyBrowserSmall {background:transparent url("../img/dividers/divider_bg.gif"/*tpa=http://jpstaraplanina.rs/img/dividers/divider_bg.gif*/) repeat-x left bottom;display:block;padding:15px 0;}
+.storyBrowser{border-bottom:1px dotted #DCDCDC;display:block;margin:0 0 15px;padding:0 0 15px;}
+
+/* -------------------  SEKVENCE -------------------- */
+
+h3.title {color:#333333;margin:0 0 10px;font-size:14px;font-weight:bold}
+h3.title a, h3.title a:visited {color:#207AA6;text-decoration:none}
+h3.title a:hover {text-decoration:underline;}
+
+p.leadShort {padding:0 0 5px;}
+p.lead {color:#666666;font-size:13px;margin:0 0 20px;padding:0;line-height:160%;font-weight:bold}
+p.eventDate {color:#777;font-size:11px;padding:0;}
+p.uptitle {color:#666666;font-size:14px;padding:0 0 5px;}
+p.author {color:#333333;font-size:12px;font-weight:bold;margin:0;text-align:right;text-transform:uppercase;}
+
+p.source {}
+p.eventPlace {}
+p.source_eventPlace_eventDate {color:#999999;font-size:11px;margin:0;padding:0;}
+p.eventDate_commentCount {border-bottom:1px solid #DCDCDC;color:#999999;font-size:11px;margin:0 0 10px;padding:0 0 10px;}
+span.source, span.eventPlace {border-right:1px solid #CACACA;margin:0 5px 0 0;padding:0 5px 0 0;}
+span.eventDate{}
+span.commentCount{background:transparent url("../img/icons/comments.gif"/*tpa=http://jpstaraplanina.rs/img/icons/comments.gif*/) no-repeat left 5px;display:block;float:right;padding:0 0 0 20px;}
+
+p.error {background:url("../img/icons/listStyles/error.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/error.gif*/) no-repeat left top;color:#CC0000;padding:0 0 10px 25px; margin:0}
+p.info {background:url("../img/icons/listStyles/info.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/info.gif*/) no-repeat left top;color:#2C79B3;padding:0 0 10px 25px; margin:0}
+p.tips {background:url("../img/icons/listStyles/tips.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/tips.gif*/) no-repeat left top;color:#E58C00;padding:0 0 10px 25px; margin:0}
+p.check {background:url("../img/icons/listStyles/checklist.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/checklist.gif*/) no-repeat left top;color:#70B81A;padding:0 0 10px 25px; margin:0}
+
+.box-grey{background-color:#F7F7F7;border:3px solid #DDDDDD;margin:0 0 15px;padding:10px !important;}
+.box-hilite{background-color:#FFFFDD;border:3px solid #D2D2B6;margin:0 0 15px;padding:10px !important;}
+
+
+/* ------------------- STORY -------------------- */
+
+.boxCaption {
+	display: none;
+}
+.boxImageCaption {
+	text-align: center;
+	color:#5D5D5D;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	line-height:140%;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.boxBody p {
+	font-size: 15px;
+	padding:0;
+	line-height: 150%;
+	margin:0;
+	color: #666666;
+	background-color:#E8E8E8;
+	padding:10px;
+}
+
+
+/***** boxHalf *****/
+
+.boxHalf {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	width:322px
+}
+.boxHalf .boxImage img {
+	border: 1px solid #eaeaea;
+	padding: 10px;
+}
+/***** boxFull *****/
+
+.boxFull {
+	margin:0 auto 10px;
+}
+.boxFull .boxImage img {
+	border: 1px solid #eaeaea;
+	padding: 10px;
+	margin: 0;
+}

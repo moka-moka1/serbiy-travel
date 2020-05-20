@@ -1,0 +1,110 @@
+/********************************************
+   HTML Elements
+********************************************/ 
+
+* {margin: 0;padding: 0;}
+body, p, ul, li, ul li p, ol li p, img, form, fieldset, input, text-area, select, button {margin:1; padding:1; border:1}
+body {background: url("../img/body_bgrd.jpg") top center no-repeat #fff fixed;color:#666666;font-family:Arial,Helvetica,sans-serif;font-size:13px;/*line-height:150%;*/}
+form, input, textarea, select {color:#666666;font-family:Arial,Helvetica,sans-serif;font-size:13px;}
+input, textarea, select {background-color:#FFFFFF; /*border:#999999 1px solid; padding:2px*/}
+
+h1, h2, h3, h4, h5, h6 {color: #002C4F;font-weight:normal;line-height:110%;margin:0 0 10px;}
+#content .container .position-center-center h2 { font-weight: 600; padding: 5px 0; border-bottom: 1px solid #002C4F; display: block; width: 100%; }
+h1 {font-size: 24px;}
+h2 {font-size: 20px;}
+h3 {font-size: 18px;}
+h4 {font-size: 16px;}
+h5 {font-size: 15px;}
+h6 {font-size: 14px;}
+p {padding-bottom:2px;}
+ul, ol {margin:0 15px 15px;}
+ul li {line-height:180%;margin:0 0 0 20px;}
+ol li {line-height:180%;list-style-type: decimal; margin:0 0 0 20px;}
+
+/*----- Lists Styles ------*/
+
+ul.arrow li{background:url("../img/icons/listStyles/arrow.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/arrow.gif*/) no-repeat left 5px;list-style:none;line-height:200%;padding:0 0 0 20px; margin:0}
+ul.star li{background:url("../img/icons/listStyles/star.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/star.gif*/) no-repeat left 5px;list-style:none;line-height:200%;padding:0 0 0 20px; margin:0}
+ul.checklist li{background:url("../img/icons/listStyles/checklist.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/checklist.gif*/) no-repeat left 5px;list-style:none;line-height:190%;padding:0 0 0 20px; margin:0}
+ul.email li{background:url("../img/icons/listStyles/email.gif"/*tpa=http://jpstaraplanina.rs/img/icons/listStyles/email.gif*/) no-repeat left 5px;list-style:none;line-height:190%;padding:0 0 0 20px; margin:0}
+
+
+.left {float: left;}
+.right {float: right;}
+img.left {float: left;margin: 0 10px 10px 0;}
+img.right {float: right;margin: 0 0 0 10px;}
+.nomargin {margin:0 !important;}
+.nopadding {padding:0 !important;}
+.clear {clear:both !important;}
+.hide {display:none !important;}
+.mb{margin:0 0 10px; display:block}
+
+/*----- Easy Clearing ------*/
+
+.fix:after {clear:both;content:'[.]';display:block;height:0;visibility:hidden;}
+.fix {display:inline-block;}
+.fix {display:block;}
+
+/*----- Link ------*/
+
+a, a:visited {color:#002c4f;text-decoration: none;outline: none;}
+a:hover {text-decoration: underline;}
+
+/*----- Href Attribute Button ------*/
+
+a.button {background: transparent url("../img/buttons/href_Button_Left.png"/*tpa=http://jpstaraplanina.rs/img/buttons/href_Button_Left.png*/) no-repeat left top;display: block;font: normal 12px Arial, Helvetica, sans-serif;height: 28px; line-height: 20px; /* (27+4+4=35px) */ margin:15px 0 0;padding:0 0 0 15px;text-decoration: none;}
+a:link.button, a:visited.button, a:active.button {color: #003570;text-decoration:none}
+a.button span {background: transparent url("../img/buttons/href_Button_Right.png"/*tpa=http://jpstaraplanina.rs/img/buttons/href_Button_Right.png*/) no-repeat right top;display: block;padding: 4px 15px 4px 0}
+a.button:hover {background-position: left bottom;}
+a.button:hover span {background-position:right bottom;color: #000000;}
+
+/*----- Href Attribute More ------*/
+
+a.more{background:url("../img/arrows/arrowRS.gif"/*tpa=http://jpstaraplanina.rs/img/arrows/arrowRS.gif*/) no-repeat left 3px;padding:0 0 0 10px;text-transform:uppercase;font-size:11px}
+
+/*----- Tables ------*/
+/*
+#content table{
+	border-collapse:collapse;
+	border-left:1px solid #fff;
+	color:#fff;
+	margin:0 0 20px;
+	text-align:left;
+	width:100%;
+}
+#content table thead tr td,#content table thead tr td th{
+	background-color:#85A529;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	border-top:1px solid #fff;
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+	padding:8px;
+}
+#content table tbody tr td{
+	background-color:#eaeaea;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	border-top:1px solid #fff;
+	padding:8px;
+	color:#000
+}
+#content table tbody tr th{
+	background-color:#9DBE40;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	border-top:1px solid #fff;
+	color:#fff;
+	font-weight:bold;
+	padding:8px;
+}*/
+
+.contentheading {
+	color:#002c4f;
+	font-weight:normal;
+	line-height:110%;
+	margin:0 0 10px;
+	font-size: 20px;
+	border-bottom: 1px solid #002c4f;
+}

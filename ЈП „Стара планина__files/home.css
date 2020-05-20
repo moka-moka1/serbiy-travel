@@ -1,0 +1,369 @@
+#main {
+  padding: 20px 13px 5px;
+  min-height: 600px;
+}
+
+/********************************************
+   NEWS - home
+********************************************/ 
+
+#news {
+	width:966px;
+	margin:0 0 15px;
+}
+#news h2 {
+	color:#47719F;
+	line-height:125%;
+	margin:0 0 10px;
+	font-size:15px;
+	font-weight: bold;
+}
+#news h3 {
+	color:#003570;
+	text-transform:uppercase;
+	line-height:30px;
+	padding:5px 0 0 20px;
+	margin:0;
+	font-size: 14px;
+	font-weight:bold;
+}
+#news p {
+	margin:0;
+	padding:0;
+}
+#news .date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #91BEC4;
+}
+.news_top {
+	display:block;
+	height:40px;
+	width:966px;
+	background-color: inherit;
+	background-image: url("../img/news_bgTop.png");
+	background-repeat: no-repeat;
+}
+.news_main {
+	display:block;
+	width:966px;
+	background-color: inherit;
+	background-image: url("../img/news_bgMain.png");
+	background-repeat: repeat-y;
+}
+.news_bottom {
+	display:block;
+	height:50px;
+	width:966px;
+	background-color: inherit;
+	background-image: url("../img/news_bgBottom.png");
+	background-repeat: no-repeat;
+}
+#news .separator {
+	display:block;
+	width:948px;
+	background-color: inherit;
+	background-image: url("../img/news_separator.gif");
+	background-repeat: repeat-y;
+	padding-left:18px;
+	margin-bottom:20px;
+}
+#news .col {
+	float:left;
+	margin-right:30px;
+	width:290px;
+}
+#news a.border {
+	width:280px;
+	height:120px;
+	display:block;
+	overflow:hidden;
+	border: 5px solid #999999;
+	margin:0 0 5px;
+}
+#news a.border:hover {
+	border: 5px solid #E0E0E0;
+}
+#news .border img {
+	border: none;
+}
+
+.latestSectionStories{ width:306px; margin-left:10px; float:left}
+.latestSectionStories h1{ font-size:16px; color:#494949; font-weight:bold; padding:10px}
+.latestSectionStories .storyBrowser h3{ padding-top:5px}
+.latestSectionStories .storyBrowser h3.title a{ color:#3A62A3; font-size:12px; font-weight:bold; line-height:140%;}
+.latestSectionStories .storyBrowserMiddle h3{margin:0; padding:8px 0}
+.latestSectionStories .storyBrowserMiddle h3.title a{ color:#3A62A3; font-size:12px; line-height:140%;}
+.latestSectionStories .latestStoryTop{ width:306px; height:41px; background:url("../img/latestStoryTopBgrd.png") top left no-repeat}
+.latestSectionStories .latestStory{ overflow: hidden; position: relative; background:url("../img/latestStoryBgrd.png") top left repeat-y; padding:0 10px 0 10px;height:305px}
+.latestSectionStories .latestStory p.eventDate{padding-bottom:0px; float:left; margin-right:5px; color:#990000; font-size:11px; font-style:italic}
+.latestSectionStories .latestStory p.leadShort{padding-bottom:0px;font-size:12px}
+.latestSectionStories .latestStory p{ display:inline}
+.latestSectionStories .latestStory p a.more{color:#3A62A3; font-size:11px;}
+.latestSectionStories .latestStoryBottom{ width:306px; height:46px; background:url("../img/latestStoryBottomBgrd.png") top left no-repeat; padding:7px 0 0 115px}
+.latestSectionStories .latestStoryBottom a{ background:url("../img/buttons/homeButtonLeft.png") left center no-repeat; padding:7px 0 7px 12px;line-height:31px; height:31px}
+.latestSectionStories .latestStoryBottom a span{background:url("../img/buttons/homeButtonRight.png") right center no-repeat; padding:7px 12px 7px 0px; line-height:31px; height:31px; color:#314404}
+
+.latestSectionStories .latestStory .storyBrowser{padding:5px 0;}
+.latestSectionStories .latestStory .storyBrowserMiddle{ background:url("../img/lin1.gif") top left repeat-x;padding:5px 0;}
+
+.latestSectionStories .latestStory .storyBrowserMiddle p.eventDate{ display:block;float:none}
+.latestSectionStories .latestStory .storyBrowserMiddle h3.title{margin-top:0;padding-top:0;padding-bottom:0}
+
+
+.topItems{ width:306px; margin-left:11px; float:left}
+.topItems h1{ font-size:16px; color:#494949; font-weight:bold; padding:10px}
+.topItems .topItemsTop{ width:306px; height:41px; background:url("../img/latestStoryTopBgrd.png") top left no-repeat}
+
+
+.topItems .storyBrowser{ margin-bottom:5px}
+.topItems .topItemsS{ background:url("../img/latestStoryBgrd.png") top left repeat-y; padding:0 10px 0 10px; height:305px}
+.topItems .topItemsS .storyBrowserMiddle { background:url("../img/lin1.gif") top left repeat-x;padding:5px 0}
+.topItems .storyBrowserMiddle h3{margin:0; padding:8px 0}
+.topItems .storyBrowser h3 a{ color:#3A62A3; font-size:12px; line-height:140%; font-weight:bold}
+
+.topItems .topItemsS p.eventDate{padding-bottom:0px; float:left; margin-right:5px; color:#990000; font-size:11px; font-style:italic}
+.topItems .topItemsS p.leadShort{padding-bottom:0px;font-size:12px}
+.topItems .topItemsS p{ display:inline}
+.topItems .topItemsS p a.more{color:#3A62A3; font-size:11px;}
+
+.topItems .topItemsS .storyBrowserMiddle p.eventDate{padding-bottom:0px; float:none; margin-right:0; color:#990000; font-size:11px; font-style:italic}
+
+.topItems .topItemsS .storyBrowser h3{ padding-top:10px;padding-bottom:0}
+.topItems .topItemsS h3{ padding-top:0;padding-bottom:0}
+.topItems .topItemsS h3.title a{ color:#3A62A3; font-size:12px; line-height:140%;}
+
+
+.topItems .topItemsBottom{ width:306px; height:46px; background:url("../img/latestStoryBottomBgrd.png") top left no-repeat; padding:7px 0 0 115px}
+.topItems .topItemsBottom a{ background:url("../img/buttons/homeButtonLeft.png") left center no-repeat; padding:7px 0 7px 12px;line-height:31px; height:31px}
+.topItems .topItemsBottom a span{background:url("../img/buttons/homeButtonRight.png") right center no-repeat; padding:7px 12px 7px 0px; line-height:31px; height:31px; color:#314404}
+
+a.more {background:0; text-transform:none; padding:0}
+
+/********************************************
+   LATEST BLOG POSTS - home
+********************************************/ 
+
+.latestBlogPosts {width:966px;margin:0 0 15px;}
+.latestBlogPosts .top {display:block;height:40px;width:966px;background-color: inherit;background: url("../img/news_bgTop.png") no-repeat;}
+.latestBlogPosts .main {display:block;padding:0 20px;;width:926px;background-color: inherit;background: url("../img/news_bgMain.png") repeat-y}
+.latestBlogPosts .bottom {display:block;height:50px;width:966px;background-color: inherit;background: url("../img/news_bgBottom.png") no-repeat}
+.latestBlogPosts h3 {color:#003570;text-transform:uppercase;line-height:30px;padding:5px 0 0 20px;margin:0;font-size: 14px;font-weight:bold;}
+
+.latestBlogPosts .browserPosts {display: block;margin-bottom:20px;background: url("../img/slidingDoor/slidingDoor_border.gif") repeat-x left bottom;padding-top:10px;}
+.latestBlogPosts h2.title {font-size: 20px;font-weight: normal;color:#47719F;line-height:125%; margin:0 0 5px;}
+.latestBlogPosts h2.title a, .latestBlogPosts h2.title a:visited {color:#47719F;text-decoration:none}
+.latestBlogPosts h2.title a:hover {text-decoration:none;color:#666666}
+
+p.releaseDate_blogName_commentsNumber {font-size: 11px;color: #919191;margin:0 0 20px; padding:0 0 5px;border-bottom:1px solid #DBDBDB;}
+span.releaseDate {border-right:1px solid #CCCCCC;padding-right:5px;margin-right:4px;}
+span.blogName {border-right:1px solid #CCCCCC;padding-right:5px;margin-right:4px;}
+span.commentsNumber {}
+
+.latestBlogPosts p.lead {font-size: 13px;padding:0;line-height: 150%;margin:0 0 20px 120px;color: #5D5D5D;font-style: italic}
+
+.latestBlogPosts p.readMore {margin-left:120px;}
+.latestBlogPosts p.readMore a, .latestBlogPosts p.readMore a:visited {text-decoration:none;}
+.latestBlogPosts p.readMore a:hover {text-decoration:underline;}
+
+a.smallThumb {display:block;float:left;margin-right:15px; margin-bottom:15pxwidth: 120px; text-align:center;}
+a.mediumThumb {display:block;float:left;margin-right:20px;width: 150px; text-align:center}
+a.largeThumb {display:block;float:left;margin-right:20px;width:300px; text-align:center}
+a.smallThumb img, a.mediumThumb img, a.largeThumb img {border:1px solid #BFBFBF;}
+
+
+/********************************************
+   POLL - home
+********************************************/ 
+
+.pollPart {width:966px;margin:0 0 15px;}
+.pollPart .top {display:block;height:40px;width:966px;background-color: inherit;background: url("../img/news_bgTop.png") no-repeat;}
+.pollPart .main {display:block;padding:10px 20px 0;width:926px;background-color: inherit;background: url("../img/news_bgMain.png") repeat-y}
+.pollPart .bottom {display:block;height:50px;width:966px;background-color: inherit;background: url("../img/news_bgBottom.png") no-repeat}
+.pollPart .top h3 {color:#003570;text-transform:uppercase;line-height:30px;padding:5px 0 0 20px;margin:0;font-size: 14px;font-weight:bold;}
+
+.pollPart .pollHolder {padding:5px 0;}
+.pollPart .imageHolder {float:left; margin-right:10px}
+.pollPart .buttonHolderFull {background:url("../img/slidingDoor/slidingDoor_border.gif") repeat-x left top;padding-top:5px; border:none; margin-top:10px}
+
+
+.pollPart .poll h3 {background:url("../img/slidingDoor/slidingDoor_border.gif") repeat-x left bottom;display:block;padding-bottom:15px;}
+.pollPart .poll p.question {color: #47719F; font-size: 14px} 
+.pollPart .poll p.answer {padding-bottom:0px} 
+.pollPart .poll p.answerImage {padding-bottom:0px; padding-top:45px} 
+.pollPart .poll input.radioButton {vertical-align: middle;margin:0 5px 0 0;padding:0;}
+
+
+/* -------------------  CENTER POLL IMAGE -------------------- */
+
+.centerPI {display: table-cell;text-align: center;vertical-align: middle;height: 110px;width: 110px;border: 1px solid #cccccc;}
+.centerPI img {border: none}
+.centerPI * {vertical-align: middle;}
+/*\*//*/
+.centerPI {display: block;}
+.centerPI span {display: inline-block;height: 100%;width: 1px;}
+/**/
+
+
+
+/********************************************
+   SLIDING DOORS - home
+********************************************/ 
+
+#slidingDoors {
+	width:316px;
+	height:249px;
+	float:left;
+	background-image: url("../img/portfolio_bg.png");
+	background-repeat: no-repeat;
+}
+#slidingDoors h2 {
+	color:#47719F;
+	line-height:125%;
+	font-size: 15px;
+	font-weight: bold;
+	margin:0;
+	padding:0;
+}
+#slidingDoors h2 a, #slidingDoors h2 a:visited {
+	color:#47719F;
+	text-decoration:none
+}
+#slidingDoors h2 a:hover {
+	text-decoration:underline
+}
+#slidingDoors p {
+	margin:0;
+	padding:0;
+}
+#slidingDoors .date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #91BEC4;
+}
+#slidingDoors .lead {
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+/********************************************
+   PORTFOLIO - home
+********************************************/ 
+
+#portfolio {
+	width:636px;
+	margin:0;
+	float:right
+}
+#portfolio h3 {
+	color:#003570;
+	font-size: 14px;
+	text-transform:uppercase;
+	line-height:30px;
+	padding:5px 0 0 20px;
+	margin: 0;
+	font-weight: bold;
+}
+.portfolio_top {
+	display:block;
+	height:40px;
+	width:636px;
+	background-color: inherit;
+	background-image: url("../img/portfolio_bgTop.png");
+	background-repeat: no-repeat;
+}
+.portfolio_main {
+	display:block;
+	width:636px;
+	background-color: inherit;
+	background-image: url("../img/portfolio_bgMain.png");
+	background-repeat: repeat-y;
+}
+.portfolio_bottom {
+	display:block;
+	height:50px;
+	width:636px;
+	background-color: inherit;
+	background-image: url("../img/portfolio_bgBottom.png");
+	background-repeat: no-repeat;
+}
+/*----- Center Image H and V ------*/
+
+.centerHVPortfolio {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: 140px;
+	width: 140px;
+	background-image: url("../img/scrollContent/portfolioImg_bg.gif");
+	background-repeat: no-repeat;
+}
+.centerHVPortfolio a img {
+	border: 0;
+}
+.centerHVPortfolio * {
+	vertical-align: middle;
+}
+/*\*//*/
+.centerHVPortfolio {display: block;}
+.centerHVPortfolio span {display: inline-block;height: 100%;width: 1px;}
+/**/
+
+
+/********************************************
+   LATEST BLOG POSTS - home
+********************************************/ 
+
+.flashBannerDiv{ padding:0 10px 10px 10px}
+
+
+/********************************************
+   LATEST BLOG POSTS - home
+********************************************/
+
+.bannerBottom{ display:block; width:960px; height:190px; clear:both; padding-top:10px}
+.bannerBottom .bannerLeft{ float:left; margin:0 10px 0 10px}
+.bannerBottom .bannerCenter{ float:left;}
+.bannerBottom .bannerRight{ float:left; margin:0 5px 0 10px}
+
+.bannerBottomSecond{ display:block; width:960px; height:250px; clear:both; padding-top:10px}
+.bannerBottomSecond .bannerLeft{ float:left; margin:0 10px 0 10px}
+.bannerBottomSecond .bannerCenter{ float:left; margin:0 10px}
+.bannerBottomSecond .bannerRight{ float:left; margin:0 5px 0 10px}
+
+/********************************************
+   Video - home
+********************************************/
+
+.flashVideoHomeHolder{ float:left; width:466px; margin-left:10px}
+.flashVideoTop{ background:url("../img/flashVideoTopBgrd.png") top left no-repeat; width:466px; height:41px;}
+.flashVideoTop h1 {color:#494949;font-size:16px;font-weight:bold;padding:15px;}
+.flashVideoHome{ background:url("../img/flashVideoMiddleBgrd.png") top left repeat-y ;padding:13px 13px 0 13px}
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ .flashVideoHome{ padding:13px 13px 3px 13px}
+}
+.flashVideoBottom{ background:url("../img/flashVideoBottomBgrd.png") top left no-repeat; width:466px; height:6px; }
+
+
+/********************************************
+   Slide show - home
+********************************************/
+
+.featuredSliderHolder{ float: left; width:466px; margin-left:7px}
+.featuredSliderTop{ background:url("../img/flashVideoTopBgrd.png") top left no-repeat; width:466px; height:41px;}
+.featuredSliderTop h1{color:#494949;font-size:16px;font-weight:bold;padding:15px;}
+#featuredSlider{background:url("../img/flashVideoMiddleBgrd.png") top left repeat-y ;padding:13px 15px 40px 13px; position:relative}
+.featuredSliderBottom{background:url("../img/flashVideoBottomBgrd.png") top left no-repeat; width:466px; height:6px; }
+
+/********************************************
+   Top box free - home
+********************************************/
+
+.freeBoxHolder{ width:306px; float:left; margin-left:10px}
+.freeBoxBottom { margin-top:0px}
+
+.main .row-menu
+{
+ overflow: visible;
+}

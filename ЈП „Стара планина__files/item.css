@@ -1,0 +1,16 @@
+img.left {border: 5px solid #E0E0E0; margin:0 10px 10px 0; float: left;}
+img.center {border: 5px solid #E0E0E0; margin:0 auto 10px; float: none; display:block}
+img.right {border: 5px solid #E0E0E0; margin:0 0 10px 10px; float: right;}
+
+.fontSize {}
+.item p.lead{font-size:13px;font-style:normal;font-weight:bold;margin:0 0 15px;}
+
+/*----- Tables ------*/
+
+.item table{border-collapse:collapse;border-left:1px solid #999999;color:#000000;margin:0 0 20px;text-align:left;width:100%;}
+.item table thead tr td,.item table thead tr td th{background-color:#3A62A3;border-bottom:1px solid #999999;border-right:1px solid #999999;border-top:1px solid #999999;color:#FFFFFF;font-size:13px;font-weight:bold;padding:8px;}
+.item table tbody tr td{background-color:#EBEBEB;border-bottom:1px solid #999999;border-right:1px solid #999999;border-top:1px solid #999999;padding:8px;}
+.item table tbody tr th{background-color:#7793BF;border-bottom:1px solid #999999;border-right:1px solid #999999;border-top:1px solid #999999;color:#FFFFFF;font-weight:bold;padding:8px;}
+
+/*----- Google Map ------*/
+.gMap{ padding:5px; background-color:#91CC0E; width:728px; border:#80B40C 1px solid}

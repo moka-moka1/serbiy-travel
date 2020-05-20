@@ -1,0 +1,46 @@
+/* -------------------  SOLID BLOCK NAVIGATION -------------------- */
+
+/*.nav ul {background-color:#FFFFFF;font-family:Arial,Helvetica,sans-serif;font-size:15px;margin:0;overflow:hidden;padding:0; width:100%}
+.nav ul li {display:inline; list-style: none;margin:0;padding:0;}
+.nav ul li a, .nav ul li a:visited {color:#99AFC6;float:left;margin:0 3px 0 0;padding:20px 15px;text-decoration:none;}
+.nav ul li a:hover {background:transparent url(/img/nav/hover.png) repeat-x scroll center center;color:#FFFFFF;}
+.nav ul li .current, .nav ul li .current:hover, .nav ul li .onPath, .nav ul li .onPath:hover {background:transparent url(/img/nav/current.png) repeat-x scroll center center;color:#FFFFFF !important;}*/
+
+
+/* -------------------  TABS NAVIGATION -------------------- */
+
+/*.nav {}
+.nav ul {margin:0;padding:0;list-style:none;}
+.nav li {display:inline;margin:0;padding:0;list-style:none}
+.nav li a {float:left;margin:0;padding:0 0 0 20px;text-decoration:none;background: url(/img/nav/leftTab.png) no-repeat left top;}
+.nav li a:visited{text-decoration:none}
+.nav li a span {float:left;display:block;background: url(/img/nav/rightTab.png) no-repeat right top;padding:13px 20px 6px 0;color:#ffffff; line-height:normal; font-size:15px}*/
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+/*.nav li a span {float:none;}
+.nav li a:hover {background-position:0% -39px;}
+.nav li a:hover span {background-position:100% -39px;color:#333333; text-decoration:none}
+.nav li a.current {background-position:0% -39px;}
+.nav li a.current span {background-position:100% -39px;color:#333333}*/
+
+
+/* -------------------  PRIMARY NAVIGATION -------------------- */
+
+.nav { height: 56px; padding: 0; background:url("../img/main_menu_bg.gif"/*tpa=http://jpstaraplanina.rs/img/main_menu_bg.gif*/) left top no-repeat; margin-left:3px}
+.nav ul {margin:0;padding:0;list-style:none;}
+.nav li {display:inline;float:left;list-style:none;margin:0 10px 0 0;padding:0 12px 0 0;}
+.nav li a {float:left;margin:0;padding:0 0 0 10px;text-decoration:none;}
+.nav li a:visited{text-decoration:none}
+.nav li a span {float:left;display:block;padding:9px 10px 9px 0;color:#333333; line-height:normal; font-size:15px}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.nav li a span {float:none;}
+.nav li a:hover {background: url("../img/nav/leftNav.gif"/*tpa=http://jpstaraplanina.rs/img/nav/leftNav.gif*/) no-repeat left top;text-decoration:none}
+.nav li a:hover span {background: url("../img/nav/rightNav.gif"/*tpa=http://jpstaraplanina.rs/img/nav/rightNav.gif*/) no-repeat right top;color:#333333; text-decoration:none}
+.nav li a.current {background: url("../img/nav/leftNav.gif"/*tpa=http://jpstaraplanina.rs/img/nav/leftNav.gif*/) no-repeat left top;}
+.nav li a.current span {background: url("../img/nav/rightNav.gif"/*tpa=http://jpstaraplanina.rs/img/nav/rightNav.gif*/) no-repeat right top;color:#333333}
+
+/* -------------------  SECUNDARY NAVIGATION -------------------- */
+
+/*#secondaryNavigation{background:transparent url(/img/menu/leftAll.jpg) no-repeat scroll left top;height:26px;padding:0 0 10px 15px;position:absolute;right:20px;top:0;}
+#secondaryNavigation ul{ background:transparent url(/img/menu/rightAll.jpg) no-repeat scroll right top;display:block;float:left;height:26px; display:inline; margin:0; padding-right:15px}
+#secondaryNavigation ul li{ display:inline; float: left; margin:0 5px 0 5px}*/
+
