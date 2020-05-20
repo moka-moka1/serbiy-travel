@@ -1,0 +1,283 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	background-image: url('/slike/bg-gore-pattern.png');
+	background-repeat:repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	font-weight: normal;
+}
+
+#pozadina {position:absolute; top:0; left:0; width:100%; height:auto;}
+
+.prvi {
+	width: 970px;
+	height:auto;
+	background-image: url('/slike/bg-belo.jpg');
+	margin: 0px auto;
+	position: relative;
+	z-index: 10;
+}
+
+.drugi {
+	width: 970px;
+	height:auto;
+	margin: 0px auto;
+	position: relative;
+	z-index: 10;
+}
+
+.drugi100 {
+	width: 100%;
+	background-image: url(/slike/bg-dole-1.png), url(/slike/bg-dole-2.png);
+	background-repeat: repeat-x, repeat;
+	margin: 0px auto;
+	z-index: 10;
+	float: left;
+	overflow: hidden;
+	
+}
+
+.treci100 {
+	width: 100%;
+	background-image: url(/slike/bg-dole-3.png), url(/slike/bg-dole-2.png);
+	background-repeat: repeat-x, repeat;
+	background-position: center bottom, center top;
+	margin: 0px auto;
+	z-index: 10;
+	height: 109px;
+	padding-top: 40px;
+}
+
+#tabelaDoleFooter {
+	position: relative;
+	width: 970px;
+	height: 109px;
+	background-image: url(/slike/footer.jpg);
+	background-repeat: no-repeat;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #414141;
+	margin: 0px auto 0 auto;
+}
+
+
+#tabela1 {
+	position: relative;
+	width: 970px;
+	height: auto;
+	float: left;
+}
+
+#tabela1-levo {
+	position: relative;
+	width: 180px;
+	height: auto;
+	float: left;
+	padding-top: 15px;
+}
+
+#tabela1-desno {
+	position: relative;
+	float:right;
+	width: 750px;
+	height: 75px;
+}
+
+#tabelaMeni {
+	position: relative;
+	width: 960px;
+	height: auto;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	top: -20px;
+}
+
+#tabelaBanner {
+	position: relative;
+	width: 970px;
+	height: auto;
+	float: left;
+}
+
+#tabelaSadrzaj {
+	position: relative;
+	width: 970px;
+	height: auto;
+	float: left;
+}
+
+.tabelaSadrzajLevo {
+	position: relative;
+	width: 640px;
+	height: auto;
+	float: left;
+	margin-right: 10px;
+}
+
+.tabelaSadrzajLevoPonuda {
+	position: relative;
+	width: 300px;
+	height: auto;
+	float: left;
+	padding: 0 5px;
+	margin-right: 10px;
+	font-style: italic;
+	margin-bottom: 8px;
+	line-height: 24px;
+}
+.slikaPonuda {
+	width: 290px;
+	height: 110px;
+	margin: 10px 0px;
+	border: 4px solid #383838;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+}
+
+.tabelaSadrzajDesno {
+	position: relative;
+	width: 300px;
+	height: auto;
+	float: left;
+	padding: 0 10px;
+}
+
+.tabelaSadrzajDesnoMiniGalerija {
+	position: relative;
+	width: 300px;
+	height: auto;
+	float: left;
+	line-height: normal;
+}
+.slikaMiniGalerija {
+	width: 90px;
+	height: 60px;
+	margin: 0 0px 2px 0;
+	border: 4px solid #383838;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+}
+
+
+.tabelaSadrzajDesnoBaneri {
+	position: relative;
+	width: 300px;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+.tabelaSadrzajDesnoFacebook {
+	position: relative;
+	background-color: #274e8e;
+	width: 270px;
+	height: auto;
+	float: left;
+	border: 4px solid #383838;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	padding: 10px;
+}
+
+.tabelaSadrzajDesnoAnketa {
+	position: relative;
+	width: 270px;
+	height: auto;
+	float: left;
+	background-color: #b0302d;
+	border: 4px solid #383838;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	margin-top: 20px;
+	padding: 10px;
+	color: #FFF;
+}
+
+#tabelaDoleVrh {
+	position: relative;
+	width: 970px;
+	height: auto;
+	float: left;
+}
+
+#tabelaDoleSredina {
+	position: relative;
+	width: 970px;
+	height: auto;
+	float: left;
+}
+
+.tabelaDoleVecaHolder {
+	position: relative;
+	width: 620px;
+	height: auto;
+	float: left;
+}
+
+.tabelaDolePrijatelji {
+	position: relative;
+	width: 185px;
+	height: auto;
+	float: left;
+	padding: 0 5px;
+	margin-right: 10px;
+	font-style: italic;
+	margin-bottom: 8px;
+	line-height: 20px;
+}
+.slikaPreporucujemo {
+	width: 174px;
+	height: 111px;
+	margin: 10px 0px;
+	border: 4px solid #383838;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+}
+.slikaPreporucujemo:hover {
+	width: 174px;
+	height: 111px;
+	margin: 10px 0px;
+	border: 4px solid #ccc;
+}
+
+.slikaPrijatelji {
+	width: 174px;
+	height: 111px;
+	margin: 10px 0px;
+	/*
+	border: 4px solid #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	*/
+}
+

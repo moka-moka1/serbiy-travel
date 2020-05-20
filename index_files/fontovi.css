@@ -1,0 +1,187 @@
+a:link, a:visited, a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+.tekst { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #4e4d4d; font-weight: normal; }
+a.tekst:link, a.tekst:visited, a.tekst:active {	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #4e4d4d; }
+a.tekst:hover { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #4e4d4d; }
+
+
+a.meniGlavni:link, a.meniGlavni:visited, a.meniGlavni:active {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #363636;
+	text-decoration: none;
+	letter-spacing: 0px;
+	font-weight: bold;
+	padding:6px;
+
+
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+	font-weight: bold;
+	border: 1px solid #fff;
+	background-color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	background-image: url(slike/pattern.jpg);
+
+	}
+a.meniGlavni:hover {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #FFDE00;
+	text-decoration: none;
+	letter-spacing: 0px;
+	font-weight: bold;
+	border: 1px solid #fff;
+	background-color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	background-image: url(slike/pattern.jpg);
+	}
+
+
+a.meniGlavni1:link, a.meniGlavni1:visited, a.meniGlavni1:active {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	letter-spacing: 0px;
+	font-weight: bold;
+	border: 1px solid #fff;
+	background-color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+	background-image: url(slike/pattern.jpg);
+	}
+a.meniGlavni1:hover {
+	text-decoration: none;
+	}
+
+
+a.meniPomocni:link, a.meniPomocni:visited, a.meniPomocni:active { font-family: "Trebuchet MS"; font-size: 11px; color: #572001; font-weight: normal; text-decoration: underline; }
+a.meniPomocni:hover { font-family: "Trebuchet MS"; font-size: 11px; color: #F68600; font-weight: normal; text-decoration: underline; }
+
+
+a.opsirnije:link, a.opsirnije:visited, a.opsirnije:active {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #D94079;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a.opsirnije:hover {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #AD224B;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+a.vestNaslov:link, a.vestNaslov:visited, a.vestNaslov:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #F90;
+	font-weight: normal;
+}
+
+a.vestNaslov:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #D27E00;
+	font-weight: normal;
+}
+
+
+.naslov, a.naslov:link, a.naslov:visited, a.naslov:active {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-style: normal;
+	text-decoration: none;
+}
+a.naslov:hover {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCC;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+.naslov1, a.naslov1:link, a.naslov1:visited, a.naslov1:active {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-style: normal;
+	text-decoration: none;
+}
+a.naslov1:hover {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCC;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+h1 {
+	margin: 0 0 10px 0;
+	padding: 0 0 0 0;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #A7824A;
+}
+
+h2   {
+	margin: 0 0 15px 0;
+	padding: 0 0 0 0;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "JohnSans Lite Pro", "Trebuchet MS";
+	color: #A7824A;
+}
+
+h3   {
+	margin: 10px 0 10px 0;
+	padding: 0 0 0 0;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "JohnSans Lite Pro", "Trebuchet MS";
+	color: #fff;
+}
